@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: whitesmoke;
+    border: 30px;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    height: 60vh;
+    margin-top: 100px;
+    
+}
+.darkgreen{
+    background-color: lightseagreen;
+}
+.lightgreen{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+.body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+
+
+    
+    
+}
+.button{
+    color: white;
+    font: optional;
+    font-weight: bolder;
+}
+#signup{
+    color: white;
+    border: none;
+    margin-left: 15px;
+    padding: 15px 0;
+    border-radius: 19px;
+    background-color: lawngreen;
+    width: 50%;
+    animation:  mine 4s linear infinite ;
+
+
+}
+@keyframes mine{
+    0%{
+        background-color: black;
+    }
+    25%{
+        background-color: brown;
+    }
+    50%{
+        background-color: darkgreen;
+    }
+    75%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: lawngreen;
+    }
+}
+    
+
+
+
+
